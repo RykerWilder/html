@@ -29,6 +29,11 @@ Per questo esercizio, aiutati con [MDN](https://developer.mozilla.org/en-US/docs
        - aggiungi una parola barrata che non ti piace
     5. Inserisci una linea orizzontale (<hr>) per separare i due paragrafi.
   -->
+  <h1>La mia prima pagina HTML</h1>
+  <h1>Fabio Masciarelli</h2>
+  <p>La mia giornata tipo consiste nel cominciare a scrivere <strong>codice</strong> di prima mattina fino ad ora di pranzo, fare una <i>siesta</i> e poi andarmi ad <s>allenare</s>.</p>
+  <hr>
+  <p>Mi piace scrivere codice in python, piu' specificamente creare script di automazione con python, aggiornare il mio portofolio e creare progetti del tutto nuovi da cui posso imparare passo dopo passo.</p>
 </body>
 </html>
 ```
