@@ -58,13 +58,3 @@ nomeAttributo="valore"
 6. Usa "abbr" per scrivere una sigla (es. HTML).
 7. Inserisci una riga orizzontale e un "br" per provare la differenza.
 
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8">
-  <title>Esercizio 3 - Immagini e altro</title>
-</head>
-<body>
-  <!-- esercizio -->
-</body>
-</html>
