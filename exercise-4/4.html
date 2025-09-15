@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Esercizio 4 - Form</title>
+</head>
+<body>
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Dati Personali</legend>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+
+        <label for="classe">Classe:</label>
+        <select id="classe" name="classe">
+          <option value="">Seleziona la tua classe</option>
+          <option value="1a">Prima A</option>
+          <option value="1b">Prima B</option>
+          <option value="2a">Seconda A</option>
+          <option value="2b">Seconda B</option>
+          <option value="3a">Terza A</option>
+          <option value="3b">Terza B</option>
+        </select>
+
+        Genere musicale preferito:<br>
+        <input type="radio" id="rock" name="genere" value="rock">
+        <label for="rock">Rock</label><br>
+        
+        <input type="radio" id="pop" name="genere" value="pop">
+        <label for="pop">Pop</label><br>
+        
+        <input type="radio" id="jazz" name="genere" value="jazz">
+        <label for="jazz">Jazz</label><br>
+        
+        <input type="radio" id="classica" name="genere" value="classica">
+        <label for="classica">Classica</label>
+    </fieldset>
+    
+      <input type="checkbox" id="regolamento" name="regolamento">
+      <label for="regolamento">Accetto il regolamento</label>
+    
+      <label for="commento">Commento:</label>
+      <br>
+      <textarea id="commento" name="commento" rows="4" cols="40" placeholder="Aggiungi un commento"></textarea>
+
+      <br>
+      <input type="submit" value="Invia">
+      <input type="reset" value="Reset">
+  </form>
+</body>
+</html>
